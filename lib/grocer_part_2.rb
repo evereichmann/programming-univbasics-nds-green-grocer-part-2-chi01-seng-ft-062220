@@ -4,13 +4,15 @@ require 'pry'
 def apply_coupons(cart, coupons)
   with_coupons = Array.new 
   count = 0
-  while count < cart.length do
-  cart.each do |grocery_item|
-    
-  #find_item_by_name_in_collection
-  #consolidate_cart = cart
+  while count < coupons.length 
+ 
+   end 
+   count += 1
   end
 end
+
+#find_item_by_name_in_collection
+  #consolidate_cart = cart
 
 def apply_clearance(cart)
  
