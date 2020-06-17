@@ -4,15 +4,15 @@ require 'pry'
 def apply_coupons(cart, coupons)
   new_total = Array.new 
   count = 0
-  
+  cart.each do |grocery_item|
+  #find_item_by_name_in_collection
+  #consolidate_cart has :count of item 
   binding.pry
   end
 end
 
 def apply_clearance(cart)
-  # Consult README for inputs and outputs
-  #
-  # REMEMBER: This method **should** update cart
+ 
 end
 
 def checkout(cart, coupons)
