@@ -5,6 +5,7 @@ def apply_coupons(cart, coupons)
   new_total = Array.new 
   count = 0
   cart.each do |grocery_item|
+    
   #find_item_by_name_in_collection
   #consolidate_cart has :count of item 
   binding.pry
