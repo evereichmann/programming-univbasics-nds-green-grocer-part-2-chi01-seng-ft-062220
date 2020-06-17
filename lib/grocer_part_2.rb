@@ -7,8 +7,7 @@ def apply_coupons(cart, coupons)
   cart.each do |grocery_item|
     
   #find_item_by_name_in_collection
-  #consolidate_cart has :count of item 
-  binding.pry
+  #consolidate_cart = cart
   end
 end
 
