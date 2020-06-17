@@ -3,9 +3,10 @@ require_relative './part_1_solution.rb'
 require 'pry'
 def apply_coupons(cart, coupons)
   new_total = Array.new 
-  count = 0 
-  binding.pry
+  count = 0
   
+  binding.pry
+  end
 end
 
 def apply_clearance(cart)
