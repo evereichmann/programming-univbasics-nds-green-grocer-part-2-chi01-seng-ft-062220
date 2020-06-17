@@ -2,7 +2,7 @@ require_relative './part_1_solution.rb'
 
 require 'pry'
 def apply_coupons(cart, coupons)
-  new_total = Array.new 
+  with_coupons = Array.new 
   count = 0
   cart.each do |grocery_item|
     
