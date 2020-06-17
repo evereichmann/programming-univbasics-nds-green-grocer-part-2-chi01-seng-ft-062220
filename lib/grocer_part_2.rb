@@ -5,7 +5,7 @@ def apply_coupons(cart, coupons)
   with_coupons = Array.new 
   count = 0
   while count < coupons.length 
-    cart_item = 
+    cart_item = find_item_by_name_in_collection()
     end 
     count += 1
   end
